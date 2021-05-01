@@ -11,6 +11,7 @@
     <modules>
         <module>aula1</module>
         <module>aula2</module>
+        <module>aula2</module>
     </modules>
 
     <properties>
