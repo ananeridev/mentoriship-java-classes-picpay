@@ -1,0 +1,15 @@
+
+;
+java:S1659
+" Declare "n2" on a separate line.(¤÷–„ùÿÿÿÿ
+i
+java:S1192"TDefine a constant instead of duplicating this literal "O maior numero eh: " 4 times.(¸ÜV
+j
+java:S1192"TDefine a constant instead of duplicating this literal "O menor numero eh: " 8 times.(ÅÂÁµ
+_
+java:S2583"DChange this condition so that it does not always evaluate to "false"(Å«œÏùÿÿÿÿ
+h
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(Çµí‘
+;
+java:S1659
+" Declare "n3" on a separate line.(¤÷–„ùÿÿÿÿ
