@@ -4,16 +4,16 @@ public class User {
 
     // atributos com suas devidas caracteristicas
     private Long codigo;
-    private String nomeCompleto;
-    private String dataNascimento;
-    private String endereco;
+    private String fullName;
+    private String birthDate;
+    private String address;
 
     // construtores
     public User(Long codigo, String nomeCompleto, String dataNascimento, String endereco) {
         this.codigo = codigo;
-        this.nomeCompleto = nomeCompleto;
-        this.dataNascimento = dataNascimento;
-        this.endereco = endereco;
+        this.fullName = nomeCompleto;
+        this.birthDate = dataNascimento;
+        this.address = endereco;
     }
 
     // encapsulamento dos objetos
@@ -25,35 +25,35 @@ public class User {
         this.codigo = codigo;
     }
 
-    public String getNomeCompleto() {
-        return nomeCompleto;
+    public String getFullName() {
+        return fullName;
     }
 
-    public void setNomeCompleto(String nomeCompleto) {
-        this.nomeCompleto = nomeCompleto;
+    public void setFullName(String fullName) {
+        this.fullName = fullName;
     }
 
-    public String getDataNascimento() {
-        return dataNascimento;
+    public String getBirthDate() {
+        return birthDate;
     }
 
-    public void setDataNascimento(String dataNascimento) {
-        this.dataNascimento = dataNascimento;
+    public void setBirthDate(String birthDate) {
+        this.birthDate = birthDate;
     }
 
-    public String getEndereco() {
-        return endereco;
+    public String getAddress() {
+        return address;
     }
 
-    public void setEndereco(String endereco) {
-        this.endereco = endereco;
+    public void setAddress(String address) {
+        this.address = address;
     }
 
     public void userPrint() {
         System.out.println("Codigo" +this.getCodigo());
-        System.out.println("Nome Compelto" +this.getNomeCompleto());
-        System.out.println("Nascimento" +this.getDataNascimento());
-        System.out.println("Endereco" +this.getEndereco());
+        System.out.println("Nome Compelto" +this.getFullName());
+        System.out.println("Nascimento" +this.getBirthDate());
+        System.out.println("Endereco" +this.getAddress());
     }
 
 }
